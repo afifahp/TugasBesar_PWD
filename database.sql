@@ -50,3 +50,7 @@ CREATE TABLE Transaksi(
     pajak decimal  not null,
     total_byr decimal (10,2) not null 
 )
+
+
+---------------------------------------Untuk di Inteface (Login dan Register)-------------------------------------
+
