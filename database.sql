@@ -53,4 +53,9 @@ CREATE TABLE Transaksi(
 
 
 ---------------------------------------Untuk di Inteface (Login dan Register)-------------------------------------
-
+CREATE TABLE admin (
+    id_adm varchar(5) PRIMARY KEY not null,
+    username varchar(20) not null,
+    password varchar(20) not null,
+    jdw_kerja ENUM ('Pagi', 'Siang', 'Sore')
+)
